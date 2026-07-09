@@ -1,0 +1,14 @@
+source_name,source_type,url,use_case,quality_note
+NIST,Government standards body,https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards,Post-quantum cryptography standards,Primary source
+Google Quantum AI,Company primary,https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/,Willow announcement,Primary source
+Reuters,Financial news,https://www.reuters.com/technology/quantum-computing-stocks-take-hit-nvidia-ceo-predicts-long-road-ahead-2025-01-08/,Quantum sector selloff linked to Nvidia CEO comments,Reputable market interpretation source
+Microsoft,Company primary,https://news.microsoft.com/source/features/innovation/microsofts-majorana-1-chip-carves-new-path-for-quantum-computing/,Majorana 1 announcement,Primary source
+Quantinuum,Company primary,https://www.quantinuum.com/press-releases/quantinuum-announces-pricing-of-upsized-initial-public-offering,QNT IPO listing date and ticker,Primary source
+Nasdaq,Exchange / market data,https://www.nasdaq.com/market-activity/stocks/qnt,QNT listing verification,Market data source
+IonQ Investor Relations,Company primary,https://investors.ionq.com/overview/default.aspx,Company description and investor materials,Primary source
+D-Wave Investor Relations,Company primary,https://ir.dwavequantum.com/overview/default.aspx,Company description and investor materials,Primary source
+Rigetti Investor Relations,Company primary,https://investors.rigetti.com/investor-relations/,Company description and investor materials,Primary source
+Quantum Computing Inc Investor Relations,Company primary,https://quantumcomputinginc.com/investor-relations,Company description and investor materials,Primary source
+Arqit Investor Relations,Company primary,https://ir.arqit.uk/,Company description and investor materials,Primary source
+IQM / BusinessWire,Company primary / press release,https://newshub.medianet.com.au/2026/07/iqm-quantum-computers-becomes-first-european-quantum-computing-company-listed-on-a-major-u-s-exchange/160395/,IQMX listing,Primary / wire source
+Yahoo Finance,Market data,https://finance.yahoo.com,Daily price data via yfinance,Data provider differences must be disclosed

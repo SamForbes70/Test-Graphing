@@ -1,0 +1,58 @@
+QUANTUM STOCK DASHBOARD - EMAIL SAFE RUN INSTRUCTIONS
+
+This package contains no launcher scripts or executables.
+
+Requirements:
+- Windows 10 or Windows 11
+- Python 3.11 or newer
+- Internet access for first install and live market data
+
+If Python is not installed:
+1. Go to https://www.python.org/downloads/
+2. Install Python 3.11 or newer.
+3. During install, tick "Add python.exe to PATH".
+
+How to run:
+
+1. Unzip the folder.
+
+2. Open Command Prompt.
+
+3. Change into the unzipped folder. Example:
+
+   cd %USERPROFILE%\Downloads\Test-Graphing-main
+
+4. Create the local Python environment:
+
+   py -3.11 -m venv .venv
+
+   If that command does not work, use:
+
+   python -m venv .venv
+
+5. Install the dashboard packages:
+
+   .venv\Scripts\python.exe -m pip install --upgrade pip
+   .venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+
+6. Start the dashboard:
+
+   .venv\Scripts\python.exe -m streamlit run dashboard.py --server.port=8501
+
+7. Open this URL in a browser:
+
+   http://localhost:8501
+
+To stop the dashboard:
+
+Press Ctrl+C in the Command Prompt window.
+
+If port 8501 is already in use:
+
+Use this command instead:
+
+   .venv\Scripts\python.exe -m streamlit run dashboard.py --server.port=8502
+
+Then open:
+
+   http://localhost:8502
